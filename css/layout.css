@@ -1,0 +1,115 @@
+main {
+  max-width: 1500px;
+  margin: auto;
+  margin-top: 70px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.one-section,
+.two-section,
+.three-section {
+  width: 100%;
+  display: flex;
+}
+
+.box {
+  width: 33%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  margin: 10px;
+  height: 250px;
+}
+
+.box:hover {
+  transform: scale(1.04);
+  transition: all 1s ease-in-out;
+}
+
+.box > h1 {
+  display: flex;
+  justify-content: center;
+}
+
+#login-form {
+  flex-direction: column;
+}
+
+#login-form :nth-child(1) {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+  margin: 55px 0 10px 0px;
+}
+#login-form :nth-child(2) {
+  border-radius: 10px;
+  width: 150px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+}
+#login-form :nth-child(2):hover {
+  transition: all 1s ease-in-out;
+  color: #fff;
+  background-color: #84a9d4;
+}
+
+.box-in-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-in-box > p {
+  margin-top: 65px;
+  font-size: 40px;
+  align-items: center;
+  text-align: center;
+}
+
+#bg-box {
+  flex-direction: column;
+  margin-top: 45px;
+}
+
+#bg-box > button {
+  background-color: rgb(44, 42, 42);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#bg-box > p {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#bgimg:hover {
+  transition: all 1s ease-in-out;
+  color: #fff;
+  background-color: #84a9d4;
+}
+
+#greeting {
+  margin-top: 70px;
+  font-size: 35px;
+}
+
+#todo-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#todo {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 200px;
+}

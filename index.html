@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javis</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cookie&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main id="all-elements">
+      <section class="one-section">
+        <div class="box column">
+          <h1>Your Name</h1>
+          <form class="box-in-box hidden" id="login-form">
+            <input
+              type="text"
+              required
+              maxlength="15"
+              placeholder="이름을 입력해 주세요"
+            />
+            <input type="submit" value="Log In" />
+          </form>
+          <h1 id="greeting" class="hidden"></h1>
+        </div>
+        <div class="box column">
+          <h1>Real Time Clock</h1>
+          <div class="box-in-box">
+            <p id="clock">00:00:00</p>
+          </div>
+        </div>
+        <div class="box column">
+          <h1>Change BG Randomly</h1>
+          <div class="box-in-box" id="bg-box">
+            <button id="bgimg" id="change-bg-btn">Change BG IMAGE</button>
+            <p>Change the background image</p>
+          </div>
+        </div>
+      </section>
+      <section class="two-section">
+        <div class="box two-box column">
+          <h1>To Do List</h1>
+          <form id="todo-form">
+            <input
+              id="todo"
+              type="text"
+              placeholder="What do you want to do?"
+              required=""
+            />
+          </form>
+          <ul id="todo-list"></ul>
+        </div>
+        <div class="box column">
+          <h1>Gradient</h1>
+          <div class="three-box">
+            <button class="gradient-btn">SHOW GRADIENT</button>
+            <p>change the color of blocks with gradient</p>
+            <button class="gradient-reset">RESET THE COLOR</button>
+          </div>
+        </div>
+        <div class="box column" ani_type="slide">
+          <h1>Music</h1>
+          <iframe
+            src="https://www.youtube.com/embed/3lwTql6YlSE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen=""
+          ></iframe>
+        </div>
+      </section>
+      <section class="three-section">
+        <div class="box column">
+          <h1>Todays Quote</h1>
+          <div id="quote">
+            <span class="quote-content"
+              >Be yourself everyone else is already taken.</span
+            >
+            <span class="quote-author">- Oscar Wilde -</span>
+          </div>
+          <button class="quote-button">Random</button>
+        </div>
+        <div class="box column">
+          <h1>Weather</h1>
+          <div id="weather">
+            <span>Ansan-si / </span>
+            <span> Clouds / 3.66°</span>
+          </div>
+        </div>
+        <div class="box column">
+          <button id="transparent-all">UNSEE</button>
+        </div>
+      </section>
+    </main>
+
+    <button id="reset-trans-btn" class="hidden">back</button>
+
+    <script src="js/clock.js"></script>
+    <script src="js/bg.js"></script>
+    <script src="js/greetings.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/gradient.js"></script>
+    <script src="js/quote.js"></script>
+
+    <script src="js/none.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+  </body>
+</html>

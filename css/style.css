@@ -1,0 +1,141 @@
+@import url(layout.css);
+@import url(gradient.css);
+@import url(reset.css);
+body {
+  height: 50vh;
+  width: 100%;
+}
+
+.box > h1 {
+  font-family: "Cookie", cursive;
+  font-size: 35px;
+}
+
+img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 1s ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+
+.hidden {
+  display: none;
+}
+.column {
+  transition: all 2s ease-in-out;
+}
+
+iframe {
+  width: 80%;
+  margin-left: 45px;
+  margin-top: 25px;
+  border-radius: 20px;
+}
+
+#quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 20px;
+  margin-top: 20px;
+}
+
+.quote-author {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.quote-button {
+  display: flex;
+  width: 100px;
+  height: 25px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  font-size: 15px;
+  background-color: rgb(44, 42, 42);
+  color: #fff;
+}
+.quote-button:hover {
+  transition: all 1s ease-in-out;
+  color: #fff;
+  background-color: #84a9d4;
+}
+
+.gradient-reset:hover {
+  transition: all 1s ease-in-out;
+  color: #fff;
+  background-color: #84a9d4;
+}
+.gradient-btn:hover {
+  transition: all 1s ease-in-out;
+  color: #fff;
+  background-color: #84a9d4;
+}
+
+#weather {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  margin-top: 50px;
+}
+#weather > span {
+  display: flex;
+  margin: 20px 0;
+  font-size: 25px;
+  font-family: "나눔고딕";
+}
+
+#transparent-all {
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  border: 3px solid black;
+  border-radius: 50%;
+  font-size: 25px;
+  font-weight: bolder;
+  color: black;
+  background: transparent;
+  box-shadow: 0px 0px 20px #000;
+}
+
+.three-section :last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#transparent-all:hover {
+  transform: rotate(360deg);
+  background: rgba(0, 0, 0, 0.5);
+}
+
+button {
+  background: rgb(44, 42, 42);
+  color: #efefef;
+  transition: all 0.5s ease-in-out;
+}
+
+#reset-trans-btn {
+  width: 250px;
+  height: 50px;
+  margin: auto;
+  font-size: 40px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #fff;
+  margin-top: 20px;
+  border-radius: 20px;
+}
