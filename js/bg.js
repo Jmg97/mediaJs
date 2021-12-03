@@ -9,14 +9,15 @@ const images = [
     "7.jpg",
     "8.jpg",
   ];
+  const bgBtn = document.querySelector("#bgimg");
+  const changeBgBtn = document.querySelector("#change-bg-btn");
   const chosenImage = images[Math.floor(Math.random() * images.length)];
   const bgImage = document.createElement("img");
+  
   bgImage.src = `img/${chosenImage}`;
   document.body.appendChild(bgImage);
   
-  const bgBtn = document.querySelector("#bgimg");
-  const changeBgBtn = document.querySelector("#change-bg-btn");
-  
+
   function removeBgImage() {
     const bgImageToRemove = document.querySelector("img");
     document.body.removeChild(bgImageToRemove);
@@ -33,4 +34,3 @@ const images = [
   
   bgBtn.addEventListener("click", clockBtnChangeBg);
  
-  
