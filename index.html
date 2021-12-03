@@ -16,12 +16,13 @@
   <body>
     <main id="all-elements">
       <section class="one-section">
-        <div class="box column">
+        <div class="box column one_squre">
           <h1>Your Name</h1>
           <form class="box-in-box hidden" id="login-form">
             <input
               type="text"
               required
+              minlength="3"
               maxlength="15"
               placeholder="이름을 입력해 주세요"
             />
@@ -29,13 +30,13 @@
           </form>
           <h1 id="greeting" class="hidden"></h1>
         </div>
-        <div class="box column">
+        <div class="box column two_squre">
           <h1>Real Time Clock</h1>
           <div class="box-in-box">
             <p id="clock">00:00:00</p>
           </div>
         </div>
-        <div class="box column">
+        <div class="box column three_squre">
           <h1>Change BG Randomly</h1>
           <div class="box-in-box" id="bg-box">
             <button id="bgimg" id="change-bg-btn">Change BG IMAGE</button>
@@ -44,7 +45,7 @@
         </div>
       </section>
       <section class="two-section">
-        <div class="box two-box column">
+        <div class="box two-box column four_squre">
           <h1>To Do List</h1>
           <form id="todo-form">
             <input
@@ -56,7 +57,7 @@
           </form>
           <ul id="todo-list"></ul>
         </div>
-        <div class="box column">
+        <div class="box column five_squre">
           <h1>Gradient</h1>
           <div class="three-box">
             <button class="gradient-btn">SHOW GRADIENT</button>
@@ -64,7 +65,7 @@
             <button class="gradient-reset">RESET THE COLOR</button>
           </div>
         </div>
-        <div class="box column" ani_type="slide">
+        <div class="box column six_squre" ani_type="slide">
           <h1>Music</h1>
           <iframe
             src="https://www.youtube.com/embed/3lwTql6YlSE"
@@ -76,7 +77,7 @@
         </div>
       </section>
       <section class="three-section">
-        <div class="box column">
+        <div class="box column seven_squre">
           <h1>Todays Quote</h1>
           <div id="quote">
             <span class="quote-content"
@@ -86,14 +87,14 @@
           </div>
           <button class="quote-button">Random</button>
         </div>
-        <div class="box column">
+        <div class="box column eight_squre">
           <h1>Weather</h1>
           <div id="weather">
             <span>Ansan-si / </span>
             <span> Clouds / 3.66°</span>
           </div>
         </div>
-        <div class="box column">
+        <div class="box column nine_squre">
           <button id="transparent-all">UNSEE</button>
         </div>
       </section>

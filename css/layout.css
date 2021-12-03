@@ -22,8 +22,8 @@ main {
 }
 
 .box:hover {
-  transform: scale(1.04);
-  transition: all 1s ease-in-out;
+  transform: scale(1.02);
+  transition: all 0.2s linear;
 }
 
 .box > h1 {
@@ -42,6 +42,7 @@ main {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   background-color: transparent;
   margin: 55px 0 10px 0px;
+  outline: none;
 }
 #login-form :nth-child(2) {
   border-radius: 10px;
@@ -51,7 +52,7 @@ main {
   cursor: pointer;
 }
 #login-form :nth-child(2):hover {
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease;
   color: #fff;
   background-color: #84a9d4;
 }
@@ -64,9 +65,10 @@ main {
 
 .box-in-box > p {
   margin-top: 65px;
-  font-size: 40px;
+  font-size: 60px;
   align-items: center;
   text-align: center;
+  font-family: "Times New Roman", Times, serif;
 }
 
 #bg-box {
@@ -92,7 +94,7 @@ main {
 }
 
 #bgimg:hover {
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
   color: #fff;
   background-color: #84a9d4;
 }
