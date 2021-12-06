@@ -21,15 +21,26 @@ main {
 .search {
   display: flex;
 }
-.search > input:first-child {
+
+.search input:first-child {
   width: 350px;
-  height: 30px;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
 }
-.search > input:last-child {
+.search input:last-child {
   background-color: #fff;
   color: #457fc2;
   height: 37px;
   cursor: pointer;
+  border-radius: 20px;
+  border: none;
+}
+.search input:last-child:hover {
+  transition: all 0.5s ease-in-out;
+  color: #fff;
+  background-color: #84a9d4;
 }
 .fab {
   margin: 0 10px;
