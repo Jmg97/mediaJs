@@ -1,9 +1,38 @@
 main {
   max-width: 1500px;
   margin: auto;
-  margin-top: 70px;
+  margin-top: 35px;
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 20px;
+}
+.icon-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 40px;
+}
+.icon-box > div {
+  display: flex;
+}
+.google-search {
+  display: flex;
+}
+.search {
+  display: flex;
+}
+.search > input:first-child {
+  width: 350px;
+  height: 30px;
+}
+.search > input:last-child {
+  background-color: #fff;
+  color: #457fc2;
+  height: 37px;
+  cursor: pointer;
+}
+.fab {
+  margin: 0 10px;
 }
 
 .one-section,

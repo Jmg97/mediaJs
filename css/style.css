@@ -31,6 +31,10 @@ img {
 .hidden {
   display: none;
 }
+
+.not-hidden {
+  display: block;
+}
 .column {
   transition: all 2s ease-in-out;
 }

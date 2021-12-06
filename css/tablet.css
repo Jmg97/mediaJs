@@ -1,11 +1,36 @@
 @media screen and (min-width: 770px) and (max-width: 1280px) {
-  .one_squre {
-    display: none;
+  .one-section,
+  .two-section,
+  .three-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  .two_squre {
-    flex-grow: 2;
+
+  .box {
+    width: 90%;
+    margin: 10px;
   }
-  .three_squre {
-    display: none;
+  main {
+    margin: 0px 20px;
+  }
+  #quote {
+    width: 60%;
+    margin: auto;
+  }
+
+  .wrap {
+    width: 80%;
+    margin: auto;
+  }
+  .wrap > iframe {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .icon-box {
+    margin: 0 10px;
+  }
+  .search {
+    margin: 0 10px;
   }
 }
