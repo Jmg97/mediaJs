@@ -1,24 +1,32 @@
 const transparentBtn = document.querySelector("#transparent-all");
 const main = document.querySelector("#all-elements");
 const resetTransparentBtn = document.querySelector("#reset-trans-btn");
-const changeTransBgBtn = document.querySelector("#change-bg-btn");
+const colorBox = document.querySelector(".hidden-box");
+
+
 
 const NONE = "none";
 const BLOCK = "block";
+const FLEX = "flex"
 
 function handleClickTransparent(event) {
   event.preventDefault();
   main.style.display = NONE;
   resetTransparentBtn.style.display = BLOCK;
-  changeTransBgBtn.style.display = BLOCK;
+  colorBox.style.display = 'flex'
 }
 
 transparentBtn.addEventListener("click", handleClickTransparent);
 
 function handleClickResetTransparent(event) {
   event.preventDefault();
-  main.style.display = BLOCK;
+  main.style.display = FLEX;
   resetTransparentBtn.style.display = NONE;
-  changeTransBgBtn.style.display = NONE;
+  colorBox.style.display = 'none'
+  if(canvas.style.display == 'flex'){
+    canvas.style.display = 'none'
+  }else{}
 }
+
+
 resetTransparentBtn.addEventListener("click", handleClickResetTransparent);

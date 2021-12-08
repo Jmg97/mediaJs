@@ -4,6 +4,9 @@ main {
   margin-top: 35px;
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .icon-box {
   width: 100%;
@@ -25,7 +28,7 @@ main {
 .search input:first-child {
   width: 350px;
   height: 35px;
-  border-radius: 20px;
+  border-radius: 5px;
   border: none;
   outline: none;
 }
@@ -34,7 +37,7 @@ main {
   color: #457fc2;
   height: 37px;
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 5px;
   border: none;
 }
 .search input:last-child:hover {
@@ -54,7 +57,7 @@ main {
 }
 
 .box {
-  width: 33%;
+  width: 30%;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 20px;
   margin: 10px;
@@ -154,4 +157,60 @@ main {
   justify-content: center;
   align-self: center;
   width: 200px;
+}
+
+.nine_squre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.canvas-box {
+  background-color: #f6f9fc;
+  padding: 50px;
+  margin-left: 120px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 80%;
+  height: 100%;
+}
+
+.canvas {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.hidden-box {
+  width: 100%;
+  display: flex;
+}
+.controle {
+  width: 50%;
+  height: 50px;
+}
+
+.controle__colors .controle__colors {
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 50%;
+}
+
+.color {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.color > i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 30px;
 }

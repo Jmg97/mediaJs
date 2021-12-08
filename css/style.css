@@ -2,10 +2,13 @@
 @import url(gradient.css);
 @import url(reset.css);
 @import url(tablet.css);
+@import url(tablet_two.css);
+
 body {
   height: 50vh;
   width: 100%;
 }
+
 #todo-list {
   margin: 10px;
 }
@@ -41,6 +44,7 @@ img {
 
 iframe {
   width: 80%;
+  height: 150px;
   margin-left: 45px;
   margin-top: 25px;
   border-radius: 20px;
@@ -147,7 +151,7 @@ button {
   cursor: pointer;
   background-color: transparent;
   border: 1px solid #fff;
-  margin-top: 20px;
+
   border-radius: 20px;
 }
 #reset-trans-btn:hover {
