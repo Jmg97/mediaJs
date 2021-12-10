@@ -12,6 +12,7 @@ main {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   color: #fff;
   font-size: 40px;
 }
@@ -66,7 +67,7 @@ main {
 
 .box:hover {
   transform: scale(1.02);
-  transition: all 0.2s linear;
+  transition: all 0.1s ease-in-out;
 }
 
 .box > h1 {
@@ -167,17 +168,17 @@ main {
 
 .canvas-box {
   background-color: #f6f9fc;
-  padding: 50px;
-  margin-left: 120px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding: 70px;
+  margin: 10px auto;
   width: 80%;
-  height: 100%;
+  height: 65%;
+  flex-direction: column;
 }
 
 .canvas {
   width: 100%;
-  height: 100%;
+  height: 550px;
+  margin: auto;
   background-color: white;
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -187,16 +188,25 @@ main {
   width: 100%;
   display: flex;
 }
-.controle {
-  width: 50%;
-  height: 50px;
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  width: 100%;
+  height: 40px;
+}
+.controls__colors {
+  display: flex;
 }
 
-.controle__colors .controle__colors {
+.controls__colors .controls__color {
   width: 50px;
   height: 50px;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
 }
 
 .color {

@@ -5,7 +5,7 @@
 @import url(tablet_two.css);
 
 body {
-  height: 50vh;
+  height: 100vh;
   width: 100%;
 }
 
@@ -39,7 +39,7 @@ img {
   display: block;
 }
 .column {
-  transition: all 2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 iframe {
