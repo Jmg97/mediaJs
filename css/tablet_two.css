@@ -2,11 +2,24 @@
   .box {
     width: 100%;
   }
+  .icon-box{
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .icon-box > div{
+    margin-bottom: 10px;
+  }
+
 }
 
 @media screen and (max-width: 484px) {
   .box {
     width: 100%;
   }
+  .icon-box{
+    flex-direction: column;
+  }
+
 }
 

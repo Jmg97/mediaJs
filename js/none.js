@@ -23,10 +23,6 @@ function handleClickResetTransparent(event) {
   main.style.display = FLEX;
   resetTransparentBtn.style.display = NONE;
   colorBox.style.display = 'none'
-  if(canvas.style.display == 'flex'){
-    canvas.style.display = 'none'
-  }else{}
 }
-
 
 resetTransparentBtn.addEventListener("click", handleClickResetTransparent);

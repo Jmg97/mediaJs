@@ -73,6 +73,7 @@ main {
 .box > h1 {
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 
 #login-form {
