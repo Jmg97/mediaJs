@@ -19,9 +19,7 @@ main {
 .icon-box > div {
   display: flex;
 }
-.google-search {
-  display: flex;
-}
+
 .search {
   display: flex;
 }
@@ -170,4 +168,79 @@ main {
 .hidden-box {
   width: 100%;
   display: flex;
+}
+
+
+.watch-box{
+  margin-top: 200px;
+  margin-bottom: 150px;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.month-box{
+  display: flex;
+  width: 500px;
+  justify-content: center;
+}
+.month-box > div{
+  width: 200px;
+  padding:0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.month-box > div:first-child{
+  border-right: 1px solid rgba(255, 255, 255, 0.603);
+}
+
+.month-box h1{
+  font-size: 50px;
+  color: #fff;
+}
+
+.month-box h3{
+  margin-top: 10px;
+  font-size: 30px;
+  color: rgb(54, 54, 54);
+}
+
+.time-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+}
+
+.time-box > div{
+  padding:0 20px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.time-box h1{
+  font-size:50px;
+  color:#fff;
+}
+.time-box  h3{
+  margin-top: 10px;
+  font-size: 30px;
+  color: rgb(54,54,54);
+}
+
+.day{
+  padding: 50px 0;
+  font-size: 40px;
+  color: #fff;
+}
+
+.time-box > div:first-child,
+.time-box > div:nth-child(2){
+  border-right: 1px solid rgba(255, 255, 255, 0.603);
 }

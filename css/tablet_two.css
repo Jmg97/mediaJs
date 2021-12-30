@@ -20,6 +20,8 @@
   .icon-box{
     flex-direction: column;
   }
-
+  form{
+    display: none;
+  }
 }
 
