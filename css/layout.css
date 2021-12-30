@@ -16,6 +16,10 @@ main {
   color: #fff;
   font-size: 40px;
 }
+
+.fab:hover{
+  transform: scale(1.2);
+}
 .icon-box > div {
   display: flex;
 }
