@@ -17,7 +17,7 @@ main {
   font-size: 40px;
 }
 
-.fab:hover{
+.fab:hover {
   transform: scale(1.2);
 }
 .icon-box > div {
@@ -91,14 +91,16 @@ main {
   margin: 55px 0 10px 0px;
   outline: none;
 }
-#login-form :nth-child(2) {
+#login-form :nth-child(2),
+#login-form :nth-child(3) {
   border-radius: 10px;
   width: 150px;
   height: 30px;
   border: none;
   cursor: pointer;
 }
-#login-form :nth-child(2):hover {
+#login-form :nth-child(2):hover,
+#login-form :nth-child(3):hover {
   transition: all 0.5s ease;
   color: #fff;
   background-color: #84a9d4;
@@ -174,8 +176,7 @@ main {
   display: flex;
 }
 
-
-.watch-box{
+.watch-box {
   margin-top: 200px;
   margin-bottom: 150px;
   height: 30vh;
@@ -185,66 +186,65 @@ main {
   justify-content: center;
 }
 
-.month-box{
+.month-box {
   display: flex;
   width: 500px;
   justify-content: center;
 }
-.month-box > div{
+.month-box > div {
   width: 200px;
-  padding:0 20px;
+  padding: 0 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.month-box > div:first-child{
+.month-box > div:first-child {
   border-right: 1px solid rgba(255, 255, 255, 0.603);
 }
 
-.month-box h1{
+.month-box h1 {
   font-size: 50px;
   color: #fff;
 }
 
-.month-box h3{
+.month-box h3 {
   margin-top: 10px;
   font-size: 30px;
   color: rgb(54, 54, 54);
 }
 
-.time-box{
+.time-box {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 600px;
 }
 
-.time-box > div{
-  padding:0 20px;
+.time-box > div {
+  padding: 0 20px;
   width: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
-.time-box h1{
-  font-size:50px;
-  color:#fff;
+.time-box h1 {
+  font-size: 50px;
+  color: #fff;
 }
-.time-box  h3{
+.time-box h3 {
   margin-top: 10px;
   font-size: 30px;
-  color: rgb(54,54,54);
+  color: rgb(54, 54, 54);
 }
 
-.day{
+.day {
   padding: 50px 0;
   font-size: 40px;
   color: #fff;
 }
 
 .time-box > div:first-child,
-.time-box > div:nth-child(2){
+.time-box > div:nth-child(2) {
   border-right: 1px solid rgba(255, 255, 255, 0.603);
 }
