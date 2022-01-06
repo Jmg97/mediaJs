@@ -3,7 +3,7 @@
 @import url(reset.css);
 @import url(tablet.css);
 @import url(tablet_two.css);
-
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Noto+Sans+KR&display=swap');
 body {
   height: 100vh;
   width: 100%;
@@ -16,9 +16,11 @@ body {
   margin: 20px;
 }
 
-.box > h1 {
-  font-family: "Cookie", cursive;
-  font-size: 35px;
+
+
+.box > h1 {    
+  font-family: 'Gugi', cursive;
+  font-size: 1.5rem;
 }
 
 img {
