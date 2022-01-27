@@ -2,67 +2,69 @@
   .box {
     width: 100%;
   }
-  .icon-box{
+  .icon-box {
     flex-direction: column;
     margin-top: 10px;
   }
 
-  .icon-box > div{
+  .icon-box > div {
     margin-bottom: 10px;
   }
-
 }
 
 @media screen and (max-width: 484px) {
   .box {
     width: 100%;
   }
-  
-  .icon-box{
+
+  .icon-box {
     flex-direction: column;
     margin-bottom: 50px;
   }
-  form{
+  form {
     display: none;
   }
-  .watch-box{
+  .watch-box {
     width: 50%;
     margin: auto;
   }
   .watch-box > div:nth-child(1),
   .watch-box > div:nth-child(2),
-  .watch-box > div:nth-child(3){
+  .watch-box > div:nth-child(3) {
     width: 50%;
     margin: auto;
   }
 
-  .watch-box > div:nth-child(2){
+  .watch-box > div:nth-child(2) {
     font-size: 20px;
   }
 
-  .month-box h1{
+  .month-box h1 {
     font-size: 30px;
     color: #fff;
   }
-  
-  .month-box h3{
+
+  .month-box h3 {
     margin-top: 20px;
     font-size: 10px;
     color: rgb(54, 54, 54);
   }
 
-  .time-box h1{
-    font-size:30px;
-    color:#fff;
+  .time-box h1 {
+    font-size: 30px;
+    color: #fff;
   }
-  .time-box  h3{
+  .time-box h3 {
     margin-top: 20px;
     font-size: 10px;
-    color: rgb(54,54,54);
+    color: rgb(54, 54, 54);
   }
 
-  .hidden-box{
+  .hidden-box {
     margin-top: 50px;
   }
-}
 
+  #weather > span {
+    font-size: 15px;
+  }
+}
